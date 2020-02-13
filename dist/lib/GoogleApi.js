@@ -33,7 +33,7 @@
     var script = null;
     var google = typeof window !== 'undefined' && window.google || null;
     var loading = false;
-    var channel = null;
+    var channel = opts.channel || null;
     var language = opts.language;
     var region = opts.region || null;
 
